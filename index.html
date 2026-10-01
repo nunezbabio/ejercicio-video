@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            .video-container {
+                position: relative;
+                /* Proporción 16:9 */
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+                margin: 1rem auto;
+                border: none;
+            }
+
+            .video-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+        </style>
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>Audio y video</h1>
+        </header>
+        <nav></nav>
+        <main>
+            <article>
+                <h2>Ejercicio Video y audio</h2>
+
+                <h3>Video</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur minus exercitationem enim ipsum vel voluptatum repudiandae, ratione vitae, fugiat reiciendis dignissimos quisquam fuga aliquam quae. Vel soluta error unde perferendis!</p>
+
+                <div class="video-container">
+                    <iframe width="1252" height="704" src="https://www.youtube.com/embed/Zf03hjU1MWA" title="Stranger Things 5 | Tráiler oficial | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h3>Audio</h3>
+
+                <audio src="./video-audio/Audio.ogg" controls></audio>
+            </article>
+        </main>
+        <footer></footer>
+    </body>
+</html>
